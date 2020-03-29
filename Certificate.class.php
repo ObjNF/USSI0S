@@ -1,2 +1,4 @@
 <?php
-abstract class Certific
+abstract class Certificate {
+	
+}
