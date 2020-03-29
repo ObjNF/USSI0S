@@ -27,3 +27,37 @@ class CertificateRevocationList {
 	/**
 	 * The path to the local copy of the CRL
 	 * @var string
+	 */
+	private $localPath;
+	
+	/**
+	 * Creates a new CRL. Fetches it from the URI if it does not exist as a cached copy or the copy is stale.
+	 * @param string $URI The URI to the revocation list.
+	 */
+	public function __construct($URI) {
+		$this->URI = $URI;
+		$this->localPath = sys_get_temp_dir().DIRECTORY_SEPARATOR.sha1(getenv('HOME').$this->URI).'.crl';
+	}
+	
+	public function __get($name) {
+		switch($name) {
+			case 'URI':
+				return $this->URI;
+			case 'localPath':
+				return $this->localPath;
+			case 'localModified':
+				if(file_exists($this->localPath))
+					return new DateTime('@'.filemtime($this->localPath));
+				return null;
+			case 'nextUpdate':
+				$this->populateFields();
+				return $this->_nextUpdate;
+			case 'lastUpdate':
+				$this->populateFields();
+				return $this->_lastUpdate;
+			case 'hash':
+				$this->populateFields();
+				return $this->_hash;
+			case 'fingerprint':
+				$this->populateFields();
+				return $this->_fingerprint;
