@@ -61,3 +61,32 @@ class CertificateRevocationList {
 			case 'fingerprint':
 				$this->populateFields();
 				return $this->_fingerprint;
+			case 'crlNumber':
+				$this->populateFields();
+				return $this->_crlNumber;
+			case 'issuer':
+				$this->populateFields();
+				return $this->_issuer;
+			case 'pemText':
+				$this->refresh();
+				$pemText = base64_encode(file_get_contents($this->localPath));
+				$pemText = wordwrap($pemText, 64, "\r\n", true);
+				$pemText = <<<End
+-----BEGIN X509 CRL-----
+$pemText
+-----END X509 CRL-----
+
+End;
+				return $pemText;
+			default:
+				return null;
+		}
+	}
+	
+	public function toPEM() {
+		$this->refresh();
+		$pemText = base64_encode(file_get_contents($this->localPath));
+		$pemText = wordwrap($pemText, 64, "\r\n", true);
+		$pemText = <<<End
+-----BEGIN X509 CRL-----
+$pemText
