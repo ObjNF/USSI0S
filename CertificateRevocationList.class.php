@@ -109,3 +109,27 @@ End;
 	private $fieldsPopulated = false;
 	private function populateFields() {
 		if($this->fieldsPopulated)
+			return;
+		if(!file_exists($this->localPath))
+			$this->refresh();
+		$fields = ' -nextupdate -lastupdate -hash -fingerprint -crlnumber -issuer';
+		exec("openssl crl -inform DER$fields -noout -in $this->localPath", $output);
+		foreach($output as $line) {
+			if(preg_match('/^([^=]+)=(.*)/', $line, $matches) == 1) {
+				switch($matches[1]) {
+					case 'nextUpdate':
+						$this->_nextUpdate = new DateTime($matches[2]);
+						continue 2;
+					case 'lastUpdate':
+						$this->_lastUpdate = new DateTime($matches[2]);
+						continue 2;
+					case 'SHA1 Fingerprint':
+						$this->_fingerprint = $matches[2];
+						continue 2;
+					case 'crlNumber':
+						$this->_crlNumber = $matches[2];
+						continue 2;
+					case 'issuer':
+						$this->_issuer = $matches[2];
+						continue 2;
+				}
