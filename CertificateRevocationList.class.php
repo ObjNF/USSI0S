@@ -90,3 +90,22 @@ End;
 		$pemText = <<<End
 -----BEGIN X509 CRL-----
 $pemText
+-----END X509 CRL-----
+
+End;
+		return $pemText;
+	}
+	
+	private $_nextUpdate;
+	private $_lastUpdate;
+	private $_hash;
+	private $_fingerprint;
+	private $_crlNumber;
+	private $_issuer;
+	/**
+	 * Wether the local fields have been populated.
+	 * @var boolean
+	 */
+	private $fieldsPopulated = false;
+	private function populateFields() {
+		if($this->fieldsPopulated)
