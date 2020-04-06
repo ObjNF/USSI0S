@@ -133,3 +133,30 @@ End;
 						$this->_issuer = $matches[2];
 						continue 2;
 				}
+			} elseif(preg_match('/^([a-f0-9]{8})/', $line, $matches) == 1) {
+				$this->_hash = $matches[1];
+			}
+		}
+		$this->fieldsPopulated = true;
+	}
+	
+	/**
+	 * Fetches the CRL from the URI if the local copy is stale.
+	 * @property boolean $force Whether to force the refresh.
+	 * @return string
+	 * @throws CRLFetchException
+	 */
+	public function refresh($force = false) {
+		$now = new DateTime();
+		if($force || !file_exists($this->localPath)) {
+			// If the local copy of the CRL does not exist or we are forced to fetch the file, do it.
+			$this->fetch();
+		} elseif($now > $this->nextUpdate) {
+			// If the local copy of the CRL states that the next update has taken place, fetch the new CRL
+			$this->fetch();
+		}
+	}
+	
+	private function fetch() {
+		if(false === $remoteContents = file_get_contents($this->URI))
+			throw new CRLFetchException("Unable to fetch the CRL at $this->URI");
