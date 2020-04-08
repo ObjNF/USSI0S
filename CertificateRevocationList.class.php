@@ -160,3 +160,35 @@ End;
 	private function fetch() {
 		if(false === $remoteContents = file_get_contents($this->URI))
 			throw new CRLFetchException("Unable to fetch the CRL at $this->URI");
+		if(file_put_contents($this->localPath, $remoteContents) === false)
+			throw new CRLWriteException("Could not write the contents of the remote CRL to the local copy.");
+	}
+	
+	/**
+	 * Combines the list of CRLs to on PEM file.
+	 * @param array $crls
+	 */
+	public static function combineToPEM(array $crls) {
+		$pemFileName = '';
+		foreach($crls as $crl)
+			$pemFileName .= sha1($crl->localPath);
+		$pemFileName = sys_get_temp_dir().DIRECTORY_SEPARATOR.sha1($pemFileName).'.pem';
+		/* If there already is a PEM file for those specific CRLs, check if it is stale.
+		 * Remove it if it is, otherwise just return that. */
+		if(file_exists($pemFileName)) {
+			$modified = new DateTime('@'.filemtime($pemFileName));
+			$stale = false;
+			foreach($crls as $crl) {
+				$crl->refresh();
+				if($modified < $crl->localModified) {
+					$stale = true;
+					break;
+				}
+			}
+			if(!$stale)
+				return $pemFileName;
+			unlink($pemFileName);
+		}
+		foreach($crls as $crl)
+			file_put_contents($pemFileName, $crl->toPEM(), FILE_APPEND);
+		return $pemFileName;
