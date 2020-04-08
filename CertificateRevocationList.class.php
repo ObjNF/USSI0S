@@ -192,3 +192,5 @@ End;
 		foreach($crls as $crl)
 			file_put_contents($pemFileName, $crl->toPEM(), FILE_APPEND);
 		return $pemFileName;
+	}
+}
