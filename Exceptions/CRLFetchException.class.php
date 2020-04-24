@@ -1,2 +1,4 @@
 <?php
-class CRLFetchExceptio
+class CRLFetchException extends Exception {
+	
+}
