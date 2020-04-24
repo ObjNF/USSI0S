@@ -1,1 +1,2 @@
-<?
+<?php
+class CRLWriteExcept
