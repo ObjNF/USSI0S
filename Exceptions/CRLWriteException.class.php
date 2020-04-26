@@ -1,2 +1,4 @@
 <?php
-class CRLWriteExcept
+class CRLWriteException extends Exception {
+	
+}
