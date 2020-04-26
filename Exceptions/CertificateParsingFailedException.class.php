@@ -1,2 +1,2 @@
 <?php
-cl
+class CertificateParsingFailedExc
