@@ -1,2 +1,4 @@
 <?php
-class Decryption
+class DecryptionFailedException extends Exception {
+	
+}
