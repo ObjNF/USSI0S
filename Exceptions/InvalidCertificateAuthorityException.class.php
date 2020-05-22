@@ -1,2 +1,4 @@
 <?php
-class InvalidCertificateAuthorityE
+class InvalidCertificateAuthorityException extends Exception {
+	
+}
