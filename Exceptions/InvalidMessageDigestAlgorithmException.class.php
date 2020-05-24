@@ -1,2 +1,4 @@
 <?php
-class InvalidMessageDigestAlgorithmException extends LogicException
+class InvalidMessageDigestAlgorithmException extends LogicException {
+	
+}
