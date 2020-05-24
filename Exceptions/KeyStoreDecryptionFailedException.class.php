@@ -1,2 +1,2 @@
 <?php
-class Ke
+class KeyStoreDecryptionFailedExcept
