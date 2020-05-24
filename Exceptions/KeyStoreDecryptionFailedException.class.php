@@ -1,2 +1,2 @@
 <?php
-class KeyStoreDecryptionFailedExcept
+class KeyStoreDecryptionFailedException extends DecryptionFailedExce
