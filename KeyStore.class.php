@@ -1,2 +1,4 @@
 <?php
-cla
+class KeyStore {
+	
+}
