@@ -3,4 +3,5 @@
  *
  * A PKCS12 container, storing a certificate and public and private keys.
  * @author Anders
- * @property Publi
+ * @property PublicKey $publicKey
+ * @propert
