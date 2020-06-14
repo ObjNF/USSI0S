@@ -5,4 +5,7 @@
  * @author Anders
  * @property PublicKey $publicKey
  * @property PrivateKey $privateKey
- * @property X509Certifica
+ * @property X509Certificate $certificate
+ *
+ */
+cla
