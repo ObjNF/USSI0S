@@ -8,4 +8,6 @@
  * @property X509Certificate $certificate
  *
  */
-class PKCS12 extends KeyS
+class PKCS12 extends KeyStore {
+	
+	private $X509Certificat
