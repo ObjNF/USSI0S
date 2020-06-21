@@ -8,4 +8,4 @@
  * @property X509Certificate $certificate
  *
  */
-cla
+class PKCS12 extends KeyS
