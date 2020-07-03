@@ -11,4 +11,7 @@
 class PKCS12 extends KeyStore {
 	
 	private $X509Certificate = null;
-	private $privateK
+	private $privateKey = null;
+	
+	/**
+	 * Represents a 
