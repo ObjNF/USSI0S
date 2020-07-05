@@ -14,4 +14,5 @@ class PKCS12 extends KeyStore {
 	private $privateKey = null;
 	
 	/**
-	 * Represents a 
+	 * Represents a PKCS12 keystore.
+	 * @param str
