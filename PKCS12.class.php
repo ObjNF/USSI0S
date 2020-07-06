@@ -15,4 +15,4 @@ class PKCS12 extends KeyStore {
 	
 	/**
 	 * Represents a PKCS12 keystore.
-	 * @param string $contents The contents 
+	 * @param string $contents The contents of the PKCS12 k
