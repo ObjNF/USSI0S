@@ -17,4 +17,5 @@ class PKCS12 extends KeyStore {
 	 * Represents a PKCS12 keystore.
 	 * @param string $contents The contents of the PKCS12 keystore.
 	 */
-	public function __construct($co
+	public function __construct($contents, $passphrase) {
+		i
