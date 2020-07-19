@@ -18,4 +18,5 @@ class PKCS12 extends KeyStore {
 	 * @param string $contents The contents of the PKCS12 keystore.
 	 */
 	public function __construct($contents, $passphrase) {
-		if(!extension_loaded('op
+		if(!extension_loaded('openssl'))
+			throw new OpenSSLEx
