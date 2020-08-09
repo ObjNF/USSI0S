@@ -19,4 +19,6 @@ class PKCS12 extends KeyStore {
 	 */
 	public function __construct($contents, $passphrase) {
 		if(!extension_loaded('openssl'))
-			throw new OpenSSLExtensionNotLoadedException('The openssl mo
+			throw new OpenSSLExtensionNotLoadedException('The openssl module is not loaded.');
+		
+		if(
