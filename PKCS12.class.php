@@ -23,4 +23,5 @@ class PKCS12 extends KeyStore {
 		
 		if(!openssl_pkcs12_read($contents, $keystore, $passphrase))
 			throw new KeyStoreDecryptionFailedException(
-				'Could not decrypt the certificate, the passphrase is incorrec
+				'Could not decrypt the certificate, the passphrase is incorrect, '.
+				'its contents are mangled
