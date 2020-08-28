@@ -25,4 +25,5 @@ class PKCS12 extends KeyStore {
 			throw new KeyStoreDecryptionFailedException(
 				'Could not decrypt the certificate, the passphrase is incorrect, '.
 				'its contents are mangled or it is not a valid PKCS #12 keystore.');
-		$this->X509Certificate = new X509Certificate($keystore['ce
+		$this->X509Certificate = new X509Certificate($keystore['cert']);
+		$this->privateKey = new 
