@@ -30,4 +30,4 @@ class PKCS12 extends KeyStore {
 	}
 	
 	/**
-	 * Init
+	 * Initialize the PKCS12 k
