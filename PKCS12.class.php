@@ -34,3 +34,5 @@ class PKCS12 extends KeyStore {
 	 * @param string $keystoreLocation
 	 * @throws FileNotFoundException
 	 * @throws FileNotReadableException
+	 */
+	public static func
