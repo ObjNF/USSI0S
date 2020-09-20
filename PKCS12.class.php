@@ -35,4 +35,4 @@ class PKCS12 extends KeyStore {
 	 * @throws FileNotFoundException
 	 * @throws FileNotReadableException
 	 */
-	public static func
+	public static function initFromFile($keystoreLoc
