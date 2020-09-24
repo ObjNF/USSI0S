@@ -37,4 +37,4 @@ class PKCS12 extends KeyStore {
 	 */
 	public static function initFromFile($keystoreLocation, $passphrase) {
 		if(!file_exists($keystoreLocation))
-			throw ne
+			throw new FileNotFoundException("
