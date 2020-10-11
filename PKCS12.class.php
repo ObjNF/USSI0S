@@ -39,4 +39,4 @@ class PKCS12 extends KeyStore {
 		if(!file_exists($keystoreLocation))
 			throw new FileNotFoundException("The keystore file '$keystoreLocation' does not exist.");
 		if(!is_readable($keystoreLocation))
-			throw
+			throw new FileNotReadableException("The key
