@@ -40,4 +40,4 @@ class PKCS12 extends KeyStore {
 			throw new FileNotFoundException("The keystore file '$keystoreLocation' does not exist.");
 		if(!is_readable($keystoreLocation))
 			throw new FileNotReadableException("The keystore file '$keystoreLocation' is not readable.");
-		return new self
+		return new self(file_get_contents($keystore
