@@ -42,3 +42,5 @@ class PKCS12 extends KeyStore {
 			throw new FileNotReadableException("The keystore file '$keystoreLocation' is not readable.");
 		return new self(file_get_contents($keystoreLocation), $passphrase);
 	}
+	
+	public function __get($na
