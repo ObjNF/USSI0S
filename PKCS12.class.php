@@ -45,4 +45,5 @@ class PKCS12 extends KeyStore {
 	
 	public function __get($name) {
 		switch($name) {
-			
+			case 'publicKey':
+				return $thi
