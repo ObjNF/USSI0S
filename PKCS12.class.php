@@ -43,4 +43,6 @@ class PKCS12 extends KeyStore {
 		return new self(file_get_contents($keystoreLocation), $passphrase);
 	}
 	
-	public function __get($na
+	public function __get($name) {
+		switch($name) {
+			
