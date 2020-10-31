@@ -46,4 +46,6 @@ class PKCS12 extends KeyStore {
 	public function __get($name) {
 		switch($name) {
 			case 'publicKey':
-				return $this->X509Certificate->public
+				return $this->X509Certificate->publicKey;
+			case 'privateKey':
+				retur
