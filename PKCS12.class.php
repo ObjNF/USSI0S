@@ -48,4 +48,5 @@ class PKCS12 extends KeyStore {
 			case 'publicKey':
 				return $this->X509Certificate->publicKey;
 			case 'privateKey':
-				retur
+				return $this->privateKey;
+			case
