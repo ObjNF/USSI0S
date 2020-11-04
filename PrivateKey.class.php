@@ -1,4 +1,4 @@
 <?php
 class PrivateKey {
 	
-	priv
+	private $keyResource = null;
