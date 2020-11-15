@@ -6,4 +6,6 @@ class PrivateKey {
 	/**
 	 * Holds a private key so you can sign or decrypt stuff with it, must be cleartext,
 	 * since we need the binary format as well.
-	 * @param string $privateK
+	 * @param string $privateKey
+	 */
+	public function _
