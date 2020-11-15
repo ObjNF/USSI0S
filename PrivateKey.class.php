@@ -5,4 +5,4 @@ class PrivateKey {
 	
 	/**
 	 * Holds a private key so you can sign or decrypt stuff with it, must be cleartext,
-	 * since we need th
+	 * since we need the binary format as wel
