@@ -8,4 +8,4 @@ class PrivateKey {
 	 * since we need the binary format as well.
 	 * @param string $privateKey
 	 */
-	public function _
+	public function __construct($privateKey
