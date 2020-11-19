@@ -8,4 +8,5 @@ class PrivateKey {
 	 * since we need the binary format as well.
 	 * @param string $privateKey
 	 */
-	public function __construct($privateKey
+	public function __construct($privateKey, $passphrase = '') {
+		if
