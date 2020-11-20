@@ -9,4 +9,4 @@ class PrivateKey {
 	 * @param string $privateKey
 	 */
 	public function __construct($privateKey, $passphrase = '') {
-		if
+		if(!extension_loaded('o
