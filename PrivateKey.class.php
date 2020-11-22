@@ -9,4 +9,5 @@ class PrivateKey {
 	 * @param string $privateKey
 	 */
 	public function __construct($privateKey, $passphrase = '') {
-		if(!extension_loaded('o
+		if(!extension_loaded('openssl'))
+			throw new Ope
