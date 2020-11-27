@@ -10,4 +10,6 @@ class PrivateKey {
 	 */
 	public function __construct($privateKey, $passphrase = '') {
 		if(!extension_loaded('openssl'))
-			throw new OpenSSLExtensionNotLoadedException('The opens
+			throw new OpenSSLExtensionNotLoadedException('The openssl module is not loaded.');
+		
+		$
