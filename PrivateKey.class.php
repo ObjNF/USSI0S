@@ -12,4 +12,4 @@ class PrivateKey {
 		if(!extension_loaded('openssl'))
 			throw new OpenSSLExtensionNotLoadedException('The openssl module is not loaded.');
 		
-		$
+		$this->keyResource = opens
