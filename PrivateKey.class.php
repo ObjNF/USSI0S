@@ -12,4 +12,5 @@ class PrivateKey {
 		if(!extension_loaded('openssl'))
 			throw new OpenSSLExtensionNotLoadedException('The openssl module is not loaded.');
 		
-		$this->keyResource = openssl_pkey_get_private($privateKey, $pa
+		$this->keyResource = openssl_pkey_get_private($privateKey, $passphrase);
+		if($
