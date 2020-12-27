@@ -14,4 +14,5 @@ class PrivateKey {
 		
 		$this->keyResource = openssl_pkey_get_private($privateKey, $passphrase);
 		if($this->keyResource === false)
-			throw new Priv
+			throw new PrivateKeyDecryptionFailedException(
+	
