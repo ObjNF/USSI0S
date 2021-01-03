@@ -16,4 +16,4 @@ class PrivateKey {
 		if($this->keyResource === false)
 			throw new PrivateKeyDecryptionFailedException(
 				'Could not decrypt the private key, the passphrase is incorrect, '.
-				'its content
+				'its contents are mangled or it is not a 
