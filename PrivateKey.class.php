@@ -18,3 +18,6 @@ class PrivateKey {
 				'Could not decrypt the private key, the passphrase is incorrect, '.
 				'its contents are mangled or it is not a valid private key.');
 	}
+	
+	/**
+	 * Initialize the priva
