@@ -21,4 +21,5 @@ class PrivateKey {
 	
 	/**
 	 * Initialize the private key from a file.
-	 * @param string $p
+	 * @param string $privatekeyLocation
+	 * @throws Fi
