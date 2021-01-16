@@ -20,4 +20,5 @@ class PrivateKey {
 	}
 	
 	/**
-	 * Initialize the priva
+	 * Initialize the private key from a file.
+	 * @param string $p
