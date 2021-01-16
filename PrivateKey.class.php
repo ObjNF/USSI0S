@@ -22,4 +22,5 @@ class PrivateKey {
 	/**
 	 * Initialize the private key from a file.
 	 * @param string $privatekeyLocation
+	 * @throws FileNotFoundException
 	 * @throws Fi
