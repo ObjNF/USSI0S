@@ -24,3 +24,5 @@ class PrivateKey {
 	 * @param string $privatekeyLocation
 	 * @throws FileNotFoundException
 	 * @throws FileNotReadableException
+	 */
+	public static functio
