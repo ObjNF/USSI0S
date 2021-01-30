@@ -25,4 +25,4 @@ class PrivateKey {
 	 * @throws FileNotFoundException
 	 * @throws FileNotReadableException
 	 */
-	public static functio
+	public static function initFromFile($privatekeyLocation, 
