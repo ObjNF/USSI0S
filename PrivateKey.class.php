@@ -26,4 +26,5 @@ class PrivateKey {
 	 * @throws FileNotReadableException
 	 */
 	public static function initFromFile($privatekeyLocation, $passphrase) {
-		if(!file_exis
+		if(!file_exists($privatekeyLocation))
+			
