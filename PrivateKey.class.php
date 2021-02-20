@@ -25,4 +25,5 @@ class PrivateKey {
 	 * @throws FileNotFoundException
 	 * @throws FileNotReadableException
 	 */
-	public static function initFromFile($privatekeyLocation, 
+	public static function initFromFile($privatekeyLocation, $passphrase) {
+		if(!file_exis
