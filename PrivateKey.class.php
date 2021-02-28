@@ -28,4 +28,4 @@ class PrivateKey {
 	public static function initFromFile($privatekeyLocation, $passphrase) {
 		if(!file_exists($privatekeyLocation))
 			throw new FileNotFoundException("The private key file '$privatekeyLocation' does not exist.");
-		if
+		if(!is_readable($privatekey
