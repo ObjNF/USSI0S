@@ -29,4 +29,4 @@ class PrivateKey {
 		if(!file_exists($privatekeyLocation))
 			throw new FileNotFoundException("The private key file '$privatekeyLocation' does not exist.");
 		if(!is_readable($privatekeyLocation))
-			throw new FileNo
+			throw new FileNotReadableException("The priva
