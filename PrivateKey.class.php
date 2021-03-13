@@ -30,4 +30,4 @@ class PrivateKey {
 			throw new FileNotFoundException("The private key file '$privatekeyLocation' does not exist.");
 		if(!is_readable($privatekeyLocation))
 			throw new FileNotReadableException("The private key file '$privatekeyLocation' is not readable.");
-		retur
+		return new self(file_get_contents($p
