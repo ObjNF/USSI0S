@@ -34,4 +34,4 @@ class PrivateKey {
 	}
 	
 	/**
-	 
+	 * Signs the data passed in th
