@@ -34,4 +34,4 @@ class PrivateKey {
 	}
 	
 	/**
-	 * Signs the data passed in the argument, returns the
+	 * Signs the data passed in the argument, returns the signature in binary form
