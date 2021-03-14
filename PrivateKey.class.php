@@ -34,4 +34,4 @@ class PrivateKey {
 	}
 	
 	/**
-	 * Signs the data passed in th
+	 * Signs the data passed in the argument, returns the
