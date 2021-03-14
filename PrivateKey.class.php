@@ -34,4 +34,5 @@ class PrivateKey {
 	}
 	
 	/**
-	 * Signs the data passed in the argument, returns the signature in binary form
+	 * Signs the data passed in the argument, returns the signature in binary format.
+	 * @param mixed $data The data
