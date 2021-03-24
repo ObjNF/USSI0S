@@ -38,4 +38,5 @@ class PrivateKey {
 	 * @param mixed $data The data to be signed
 	 * @param string $algoritm Which algorithm to use for signing
 	 * @return binary
-	 * @throws InvalidMessageDigestA
+	 * @throws InvalidMessageDigestAlgorithmException
+	
