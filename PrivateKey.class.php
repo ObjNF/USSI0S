@@ -39,4 +39,5 @@ class PrivateKey {
 	 * @param string $algoritm Which algorithm to use for signing
 	 * @return binary
 	 * @throws InvalidMessageDigestAlgorithmException
-	
+	 */
+	public function sign($data, $algor
