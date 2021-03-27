@@ -40,4 +40,5 @@ class PrivateKey {
 	 * @return binary
 	 * @throws InvalidMessageDigestAlgorithmException
 	 */
-	public function sign($data, $algor
+	public function sign($data, $algorithm = 'RSA-SHA256') {
+		if(!
