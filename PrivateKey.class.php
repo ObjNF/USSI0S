@@ -41,4 +41,4 @@ class PrivateKey {
 	 * @throws InvalidMessageDigestAlgorithmException
 	 */
 	public function sign($data, $algorithm = 'RSA-SHA256') {
-		if(!
+		if(!in_array($algorithm, ope
