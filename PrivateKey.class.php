@@ -42,4 +42,5 @@ class PrivateKey {
 	 */
 	public function sign($data, $algorithm = 'RSA-SHA256') {
 		if(!in_array($algorithm, openssl_get_md_methods(true)))
-			throw new InvalidMess
+			throw new InvalidMessageDigestAlgorithmException(
+			"T
