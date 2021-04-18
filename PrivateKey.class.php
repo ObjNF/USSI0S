@@ -43,4 +43,4 @@ class PrivateKey {
 	public function sign($data, $algorithm = 'RSA-SHA256') {
 		if(!in_array($algorithm, openssl_get_md_methods(true)))
 			throw new InvalidMessageDigestAlgorithmException(
-			"The digest algorithm '$algorithm' is not supported
+			"The digest algorithm '$algorithm' is not supported by this openssl implemen
