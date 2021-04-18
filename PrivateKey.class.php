@@ -44,4 +44,5 @@ class PrivateKey {
 		if(!in_array($algorithm, openssl_get_md_methods(true)))
 			throw new InvalidMessageDigestAlgorithmException(
 			"The digest algorithm '$algorithm' is not supported by this openssl implementation.");
-		openssl_sign($data, $signature, $this->keyResour
+		openssl_sign($data, $signature, $this->keyResource, $algorithm);
+		return $s
