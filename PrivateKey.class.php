@@ -45,4 +45,8 @@ class PrivateKey {
 			throw new InvalidMessageDigestAlgorithmException(
 			"The digest algorithm '$algorithm' is not supported by this openssl implementation.");
 		openssl_sign($data, $signature, $this->keyResource, $algorithm);
-		return $s
+		return $signature;
+	}
+	
+	/**
+	 * Decryp
