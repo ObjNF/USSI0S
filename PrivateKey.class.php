@@ -49,4 +49,5 @@ class PrivateKey {
 	}
 	
 	/**
-	 * Decryp
+	 * Decrypts $data using this private key.
+	 *
