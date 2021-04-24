@@ -52,4 +52,4 @@ class PrivateKey {
 	 * Decrypts $data using this private key.
 	 * @param mixed $data
 	 * @return string
-	 * @throws Dec
+	 * @throws DecryptionFailedExce
