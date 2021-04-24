@@ -51,4 +51,5 @@ class PrivateKey {
 	/**
 	 * Decrypts $data using this private key.
 	 * @param mixed $data
-	 * @return
+	 * @return string
+	 * @throws Dec
