@@ -52,4 +52,6 @@ class PrivateKey {
 	 * Decrypts $data using this private key.
 	 * @param mixed $data
 	 * @return string
-	 * @throws DecryptionFailedExce
+	 * @throws DecryptionFailedException
+	 */
+	public function
