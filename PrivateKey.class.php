@@ -54,4 +54,5 @@ class PrivateKey {
 	 * @return string
 	 * @throws DecryptionFailedException
 	 */
-	public function
+	public function decrypt($data) {
+		if(!openss
