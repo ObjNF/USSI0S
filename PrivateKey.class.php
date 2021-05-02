@@ -55,4 +55,4 @@ class PrivateKey {
 	 * @throws DecryptionFailedException
 	 */
 	public function decrypt($data) {
-		if(!openss
+		if(!openssl_private_decrypt($data, $decrypted, $
