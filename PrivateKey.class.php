@@ -55,4 +55,5 @@ class PrivateKey {
 	 * @throws DecryptionFailedException
 	 */
 	public function decrypt($data) {
-		if(!openssl_private_decrypt($data, $decrypted, $
+		if(!openssl_private_decrypt($data, $decrypted, $this->keyResource))
+			throw new 
