@@ -61,4 +61,4 @@ class PrivateKey {
 	}
 	
 	/**
-	 * Fre
+	 * Frees the resource associa
