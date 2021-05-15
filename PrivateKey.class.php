@@ -62,4 +62,6 @@ class PrivateKey {
 	
 	/**
 	 * Frees the resource associated with this private key.
-	 * This is automatically done
+	 * This is automatically done on destruct.
+	 */
+	privat
