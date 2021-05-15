@@ -62,4 +62,4 @@ class PrivateKey {
 	
 	/**
 	 * Frees the resource associated with this private key.
-	 * T
+	 * This is automatically done
