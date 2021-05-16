@@ -64,4 +64,5 @@ class PrivateKey {
 	 * Frees the resource associated with this private key.
 	 * This is automatically done on destruct.
 	 */
-	privat
+	private function free() {
+		if($this->keyReso
