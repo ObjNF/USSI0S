@@ -65,4 +65,5 @@ class PrivateKey {
 	 * This is automatically done on destruct.
 	 */
 	private function free() {
-		if($this->keyReso
+		if($this->keyResource)
+			openssl_pkey_fr
