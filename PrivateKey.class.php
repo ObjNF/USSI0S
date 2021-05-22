@@ -70,4 +70,5 @@ class PrivateKey {
 		$this->keyResource = null;
 	}
 	
-	public f
+	public function __destruct() {
+		$th
