@@ -71,4 +71,6 @@ class PrivateKey {
 	}
 	
 	public function __destruct() {
-		$th
+		$this->free();
+	}
+}
