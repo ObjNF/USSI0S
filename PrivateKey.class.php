@@ -67,4 +67,7 @@ class PrivateKey {
 	private function free() {
 		if($this->keyResource)
 			openssl_pkey_free($this->keyResource);
-		$this
+		$this->keyResource = null;
+	}
+	
+	public f
