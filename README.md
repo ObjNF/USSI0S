@@ -59,3 +59,30 @@ if($valid) {
 
 
 ### Signing with an openssh private key ###
+
+OpenSSH private keys are also handled by this library.
+```php
+<?php
+try {
+	$passphrase = 'private key passphrase';
+	$privateKey = PrivateKey::initFromFile('~/.ssh/id_rsa', $passphrase);
+	$signature = $privateKey->sign($message);
+} catch(PrivateKeyDecryptionFailedException $e) {
+	die('Wrong passphrase.');
+}
+return $signature;
+```
+
+
+### Initialize X509 certificates using a base64 encoded string ###
+```php
+<?php
+$pemCert = 'base64 encoded string';
+$certificate =  new X509Certificate($pemCert);
+```
+
+### Check the certificate revocation list ###
+```php
+<?php
+$certificate->checkCRL(array('path/to/intermediate_certificates'));
+```
