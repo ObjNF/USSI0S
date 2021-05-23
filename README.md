@@ -25,3 +25,37 @@ Simple example
 --------------
 
 ### Signing with a private key from a keystore ###
+
+Given a PKCS #12 keystore the library can extract the private key and sign any message with it, returning the signature:
+
+```php
+<?php
+try {
+	$passphrase = 'keystore passphrase';
+	$keyStore = PKCS12::initFromFile('path/to/keystore.pkcs12', $passphrase);
+	$signature = $keyStore->privateKey->sign($message);
+} catch(KeyStoreDecryptionFailedException $e) {
+	die('Wrong passphrase.');
+}
+return $signature;
+```
+
+### Verifying a signature ###
+
+To verify a signature against a message you simply need the X509Certificate holding the public key that corresponds to the private key the message was signed with.
+
+```php
+<?php
+$pemCert = 'base64 encoded string';
+$certificate =  new X509Certificate($pemCert);
+$valid = $certificate->publicKey->verify($message, $signature);
+if($valid) {
+	echo 'Signature is valid';
+} else {
+	echo 'Signature is invalid';
+}
+```
+
+
+
+### Signing with an openssh private key ###
