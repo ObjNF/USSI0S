@@ -36,3 +36,10 @@ class PublicKey {
 		if(!openssl_public_decrypt($data, $decrypted, $this->keyResource))
 			throw new DecryptionFailedException('Failed decrypting the data with this public key.');
 		return $decrypted;
+	}
+	
+	public function __destruct() {
+		if($this->keyResource)
+			openssl_free_key($this->keyResource);
+	}
+}
