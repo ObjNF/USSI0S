@@ -1,3 +1,5 @@
 <?php
 /**
- * Represents an X509 
+ * Represents an X509 certificate
+ * @author Anders
+ *
