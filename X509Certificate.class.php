@@ -2,4 +2,5 @@
 /**
  * Represents an X509 certificate
  * @author Anders
- * @property PublicKey $publicKey The public key
+ * @property PublicKey $publicKey The public key of the certificate.
+ *
