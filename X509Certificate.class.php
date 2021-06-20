@@ -6,4 +6,4 @@
  * @property String $clearText Clear text base64 representation of the certificate.
  * @property string $compactBase64 Base64 encoded version of the certificate without linebreaks and delimiters.
  * @property array $info Information about the certificate. Contains things like the name and the fingerprint of the certificate.
- * @property s
+ * @property string $commonName The C
