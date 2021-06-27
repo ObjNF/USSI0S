@@ -8,4 +8,4 @@
  * @property array $info Information about the certificate. Contains things like the name and the fingerprint of the certificate.
  * @property string $commonName The CN of the certificate.
  * @property string $fingerprint The fingerprint of the certificate.
- * @property stri
+ * @property string $fingerprintCA The fingerpri
