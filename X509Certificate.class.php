@@ -9,4 +9,5 @@
  * @property string $commonName The CN of the certificate.
  * @property string $fingerprint The fingerprint of the certificate.
  * @property string $fingerprintCA The fingerprint of the certificate with which this certificate was signed.
- * @property boolean $isSelfSigned Whether the cert
+ * @property boolean $isSelfSigned Whether the certificate is self signed.
+ * @prop
