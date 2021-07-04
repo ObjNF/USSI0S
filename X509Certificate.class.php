@@ -10,4 +10,4 @@
  * @property string $fingerprint The fingerprint of the certificate.
  * @property string $fingerprintCA The fingerprint of the certificate with which this certificate was signed.
  * @property boolean $isSelfSigned Whether the certificate is self signed.
- * @property boolean $isCA Whether the ce
+ * @property boolean $isCA Whether the certificate is a certificate autho
