@@ -11,4 +11,4 @@
  * @property string $fingerprintCA The fingerprint of the certificate with which this certificate was signed.
  * @property boolean $isSelfSigned Whether the certificate is self signed.
  * @property boolean $isCA Whether the certificate is a certificate authority.
- * @property X509Certi
+ * @property X509Certificate $issuer The issue
