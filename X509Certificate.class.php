@@ -13,4 +13,4 @@
  * @property boolean $isCA Whether the certificate is a certificate authority.
  * @property X509Certificate $issuer The issuer of this certificate. Is null if not set explicitely.
  * @property DateTime $validFrom From when the certificate is valid.
- * @property DateTime $validTo
+ * @property DateTime $validTo The date this certificate
