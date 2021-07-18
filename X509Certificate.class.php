@@ -14,4 +14,5 @@
  * @property X509Certificate $issuer The issuer of this certificate. Is null if not set explicitely.
  * @property DateTime $validFrom From when the certificate is valid.
  * @property DateTime $validTo The date this certificate expires.
- * @property boolean $isValidNow Whether the certificate is valid r
+ * @property boolean $isValidNow Whether the certificate is valid right now.
+ * @property string 
