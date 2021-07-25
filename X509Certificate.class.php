@@ -15,4 +15,5 @@
  * @property DateTime $validFrom From when the certificate is valid.
  * @property DateTime $validTo The date this certificate expires.
  * @property boolean $isValidNow Whether the certificate is valid right now.
- * @property string $crlURI The URI to the CRL distri
+ * @property string $crlURI The URI to the CRL distribution point.
+ * @property C
