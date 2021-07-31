@@ -19,4 +19,4 @@
  * @property CRL $crl The crl of this certificate.
  *
  */
-class X5
+class X509Certificate extends Certificate
