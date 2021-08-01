@@ -22,4 +22,4 @@
 class X509Certificate extends Certificate {
 	
 	/**
-	 * The certific
+	 * The certificate resource used inter
