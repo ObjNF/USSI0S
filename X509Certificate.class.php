@@ -22,4 +22,4 @@
 class X509Certificate extends Certificate {
 	
 	/**
-	 * The certificate resource used inter
+	 * The certificate resource used internally for different API calls to open
