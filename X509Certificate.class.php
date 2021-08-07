@@ -28,4 +28,4 @@ class X509Certificate extends Certificate {
 	private $certResource = null;
 	
 	/**
-	 * Clear text repre
+	 * Clear text representation of the certifi
