@@ -25,4 +25,6 @@ class X509Certificate extends Certificate {
 	 * The certificate resource used internally for different API calls to openssl
 	 * @var resource
 	 */
-	priva
+	private $certResource = null;
+	
+	
