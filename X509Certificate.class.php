@@ -29,4 +29,6 @@ class X509Certificate extends Certificate {
 	
 	/**
 	 * Clear text representation of the certificate in base64
-	 * @var st
+	 * @var string
+	 */
+	private $clearText = n
