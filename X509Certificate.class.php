@@ -34,4 +34,5 @@ class X509Certificate extends Certificate {
 	private $clearText = null;
 	
 	/**
-	 * The public key o
+	 * The public key of this certificate
+	 * @v
