@@ -35,4 +35,6 @@ class X509Certificate extends Certificate {
 	
 	/**
 	 * The public key of this certificate
-	 * @v
+	 * @var PublicKey
+	 */
+	private $publicKe
