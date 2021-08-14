@@ -40,4 +40,5 @@ class X509Certificate extends Certificate {
 	private $publicKey = null;
 	
 	/**
-	 * Information returned by the opens
+	 * Information returned by the openssl_x509_parse API call.
+	 * @v
