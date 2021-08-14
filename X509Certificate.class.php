@@ -40,4 +40,4 @@ class X509Certificate extends Certificate {
 	private $publicKey = null;
 	
 	/**
-	 * Info
+	 * Information returned by the opens
