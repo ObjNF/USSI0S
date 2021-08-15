@@ -41,4 +41,6 @@ class X509Certificate extends Certificate {
 	
 	/**
 	 * Information returned by the openssl_x509_parse API call.
-	 * @v
+	 * @var array
+	 */
+	private $info
