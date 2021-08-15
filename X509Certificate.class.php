@@ -46,4 +46,5 @@ class X509Certificate extends Certificate {
 	private $info = null;
 	
 	/**
-	 * The issuer 
+	 * The issuer of this certificate.
+	 * @var X
