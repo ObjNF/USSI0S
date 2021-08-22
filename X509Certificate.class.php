@@ -58,4 +58,4 @@ class X509Certificate extends Certificate {
 	private $validFrom = null;
 	
 	/**
-	 * T
+	 * The date this certificate 
