@@ -52,4 +52,5 @@ class X509Certificate extends Certificate {
 	private $issuer = null;
 	
 	/**
-	 * The 
+	 * The date this certificate is valid from.
+	 * @v
