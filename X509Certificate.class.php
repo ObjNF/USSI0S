@@ -53,4 +53,6 @@ class X509Certificate extends Certificate {
 	
 	/**
 	 * The date this certificate is valid from.
-	 * @v
+	 * @var DateTime
+	 */
+	private 
