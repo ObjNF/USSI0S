@@ -55,4 +55,7 @@ class X509Certificate extends Certificate {
 	 * The date this certificate is valid from.
 	 * @var DateTime
 	 */
-	private 
+	private $validFrom = null;
+	
+	/**
+	 * T
