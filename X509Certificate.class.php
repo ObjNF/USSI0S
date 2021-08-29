@@ -62,3 +62,6 @@ class X509Certificate extends Certificate {
 	 * @var DateTime
 	 */
 	private $validTo = null;
+	
+	/**
+	 * The certificate rev
