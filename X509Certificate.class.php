@@ -64,4 +64,5 @@ class X509Certificate extends Certificate {
 	private $validTo = null;
 	
 	/**
-	 * The certificate revocation list of this certifica
+	 * The certificate revocation list of this certificate.
+	 * @var Certificat
