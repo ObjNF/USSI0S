@@ -65,4 +65,6 @@ class X509Certificate extends Certificate {
 	
 	/**
 	 * The certificate revocation list of this certificate.
-	 * @var Certificat
+	 * @var CertificateRevocationList
+	 */
+	privat
