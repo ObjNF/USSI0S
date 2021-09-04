@@ -67,4 +67,7 @@ class X509Certificate extends Certificate {
 	 * The certificate revocation list of this certificate.
 	 * @var CertificateRevocationList
 	 */
-	privat
+	private $CRL;
+	
+	/**
+	 * Holds a x509 ce
