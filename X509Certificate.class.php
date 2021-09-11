@@ -70,4 +70,5 @@ class X509Certificate extends Certificate {
 	private $CRL;
 	
 	/**
-	 * Holds a x509 ce
+	 * Holds a x509 certificate.
+	 * @param string $cer
