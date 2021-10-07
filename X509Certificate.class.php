@@ -71,4 +71,6 @@ class X509Certificate extends Certificate {
 	
 	/**
 	 * Holds a x509 certificate.
-	 * @param string $certificate Expected to be base64 encoded an
+	 * @param string $certificate Expected to be base64 encoded and with the --- delimiters
+	 */
+	
