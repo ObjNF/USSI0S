@@ -73,4 +73,5 @@ class X509Certificate extends Certificate {
 	 * Holds a x509 certificate.
 	 * @param string $certificate Expected to be base64 encoded and with the --- delimiters
 	 */
-	public function __construct
+	public function __construct($certificate) {
+		if(!e
