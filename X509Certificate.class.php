@@ -74,4 +74,5 @@ class X509Certificate extends Certificate {
 	 * @param string $certificate Expected to be base64 encoded and with the --- delimiters
 	 */
 	public function __construct($certificate) {
-		if(!e
+		if(!extension_loaded('openssl'))
+			throw n
