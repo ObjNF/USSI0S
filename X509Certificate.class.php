@@ -75,4 +75,4 @@ class X509Certificate extends Certificate {
 	 */
 	public function __construct($certificate) {
 		if(!extension_loaded('openssl'))
-			throw new OpenSSLExtensionNotLoadedException('The opens
+			throw new OpenSSLExtensionNotLoadedException('The openssl module is not loaded.')
