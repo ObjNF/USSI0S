@@ -79,4 +79,5 @@ class X509Certificate extends Certificate {
 		$this->clearText = $certificate;
 		$this->certResource = openssl_x509_read($this->clearText);
 		if($this->certResource === false) {
-			throw new CertificateParsingFa
+			throw new CertificateParsingFailedException(
+			'The certifica
