@@ -78,4 +78,5 @@ class X509Certificate extends Certificate {
 			throw new OpenSSLExtensionNotLoadedException('The openssl module is not loaded.');
 		$this->clearText = $certificate;
 		$this->certResource = openssl_x509_read($this->clearText);
-		if($this->ce
+		if($this->certResource === false) {
+			thr
