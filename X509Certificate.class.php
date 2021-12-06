@@ -80,4 +80,6 @@ class X509Certificate extends Certificate {
 		$this->certResource = openssl_x509_read($this->clearText);
 		if($this->certResource === false) {
 			throw new CertificateParsingFailedException(
-			'The certificate to not be parsed by openssl. Make sure it is cleartext and base64 encoded
+			'The certificate to not be parsed by openssl. Make sure it is cleartext and base64 encoded with delimiters.');
+		}
+		$thi
