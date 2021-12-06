@@ -82,4 +82,4 @@ class X509Certificate extends Certificate {
 			throw new CertificateParsingFailedException(
 			'The certificate to not be parsed by openssl. Make sure it is cleartext and base64 encoded with delimiters.');
 		}
-		$thi
+		$this->info = openssl_x509_parse(
