@@ -83,4 +83,5 @@ class X509Certificate extends Certificate {
 			'The certificate to not be parsed by openssl. Make sure it is cleartext and base64 encoded with delimiters.');
 		}
 		$this->info = openssl_x509_parse($this->clearText);
-		{ //
+		{ // Validity period
+			$GMT = new
