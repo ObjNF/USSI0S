@@ -85,4 +85,5 @@ class X509Certificate extends Certificate {
 		$this->info = openssl_x509_parse($this->clearText);
 		{ // Validity period
 			$GMT = new DateTimeZone('Europe/London');
-			$this->validFrom = new DateTime(self::formatValidityString($th
+			$this->validFrom = new DateTime(self::formatValidityString($this->info['validFrom']), $GMT);
+	
