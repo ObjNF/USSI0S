@@ -88,4 +88,5 @@ class X509Certificate extends Certificate {
 			$this->validFrom = new DateTime(self::formatValidityString($this->info['validFrom']), $GMT);
 			$this->validTo = new DateTime(self::formatValidityString($this->info['validTo']), $GMT);
 		}
-		$this->CRL = new CertificateRevocationList($this-
+		$this->CRL = new CertificateRevocationList($this->crlURI);
+		$this->p
