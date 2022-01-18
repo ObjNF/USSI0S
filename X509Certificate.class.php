@@ -92,4 +92,6 @@ class X509Certificate extends Certificate {
 		$this->publicKey = new PublicKey($this->certResource);
 	}
 	
-	public function __ge
+	public function __get($name) {
+		switch($name) {
+			case 'publi
