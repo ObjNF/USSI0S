@@ -90,3 +90,6 @@ class X509Certificate extends Certificate {
 		}
 		$this->CRL = new CertificateRevocationList($this->crlURI);
 		$this->publicKey = new PublicKey($this->certResource);
+	}
+	
+	public function __ge
