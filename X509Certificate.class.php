@@ -94,4 +94,5 @@ class X509Certificate extends Certificate {
 	
 	public function __get($name) {
 		switch($name) {
-			case 'publi
+			case 'publicKey':
+				return $this->pu
