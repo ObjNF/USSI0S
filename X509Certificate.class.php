@@ -97,4 +97,6 @@ class X509Certificate extends Certificate {
 			case 'publicKey':
 				return $this->publicKey;
 			case 'clearText':
-				return $this->clear
+				return $this->clearText;
+			case 'compactBase64':
+		
