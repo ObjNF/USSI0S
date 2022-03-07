@@ -99,4 +99,6 @@ class X509Certificate extends Certificate {
 			case 'clearText':
 				return $this->clearText;
 			case 'compactBase64':
-				return self::stripDelimitersAndLineWraps($this->clearTe
+				return self::stripDelimitersAndLineWraps($this->clearText);
+			case 'info':
+				ret
