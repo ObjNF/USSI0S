@@ -102,4 +102,5 @@ class X509Certificate extends Certificate {
 				return self::stripDelimitersAndLineWraps($this->clearText);
 			case 'info':
 				return $this->info;
-			case 'common
+			case 'commonName':
+				return $th
