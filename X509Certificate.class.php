@@ -103,4 +103,4 @@ class X509Certificate extends Certificate {
 			case 'info':
 				return $this->info;
 			case 'commonName':
-				return $th
+				return $this->info['subject']['CN']
