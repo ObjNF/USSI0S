@@ -104,4 +104,5 @@ class X509Certificate extends Certificate {
 				return $this->info;
 			case 'commonName':
 				return $this->info['subject']['CN'];
-			case 'fingerprint
+			case 'fingerprint':
+				return $this->info['
