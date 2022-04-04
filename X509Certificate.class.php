@@ -106,4 +106,5 @@ class X509Certificate extends Certificate {
 				return $this->info['subject']['CN'];
 			case 'fingerprint':
 				return $this->info['extensions']['subjectKeyIdentifier'];
-			case 'finger
+			case 'fingerprintCA':
+				$fingerprint =
