@@ -108,4 +108,4 @@ class X509Certificate extends Certificate {
 				return $this->info['extensions']['subjectKeyIdentifier'];
 			case 'fingerprintCA':
 				$fingerprint = str_replace('keyid:', '', $this->info['extensions']['authorityKeyIdentifier']);
-				$fin
+				$fingerprint = str_replace
