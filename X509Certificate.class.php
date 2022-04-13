@@ -111,4 +111,4 @@ class X509Certificate extends Certificate {
 				$fingerprint = str_replace("\n", '', $fingerprint);
 				return $fingerprint;
 			case 'isSelfSigned':
-				return $this->
+				return $this->fingerprint == $this->finge
