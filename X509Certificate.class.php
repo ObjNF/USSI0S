@@ -110,4 +110,5 @@ class X509Certificate extends Certificate {
 				$fingerprint = str_replace('keyid:', '', $this->info['extensions']['authorityKeyIdentifier']);
 				$fingerprint = str_replace("\n", '', $fingerprint);
 				return $fingerprint;
-			case '
+			case 'isSelfSigned':
+				return $this->
