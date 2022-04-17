@@ -113,4 +113,4 @@ class X509Certificate extends Certificate {
 			case 'isSelfSigned':
 				return $this->fingerprint == $this->fingerprintCA;
 			case 'isCA':
-				r
+				return strpos($this->info['ex
