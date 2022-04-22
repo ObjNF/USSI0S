@@ -115,4 +115,6 @@ class X509Certificate extends Certificate {
 			case 'isCA':
 				return strpos($this->info['extensions']['basicConstraints'], 'CA:TRUE') !== false;
 			case 'issuer':
-				return $this->
+				return $this->issuer;
+			case 'validFrom':
+			
