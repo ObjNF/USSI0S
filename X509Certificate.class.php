@@ -120,4 +120,6 @@ class X509Certificate extends Certificate {
 				return $this->validFrom;
 			case 'validTo':
 				return $this->validTo;
-			case 'isValidNow
+			case 'isValidNow':
+				$now = new DateTime;
+				retu
