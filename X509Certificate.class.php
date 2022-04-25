@@ -119,4 +119,5 @@ class X509Certificate extends Certificate {
 			case 'validFrom':
 				return $this->validFrom;
 			case 'validTo':
-				return $this->v
+				return $this->validTo;
+			case 'isValidNow
