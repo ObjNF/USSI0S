@@ -124,4 +124,4 @@ class X509Certificate extends Certificate {
 				$now = new DateTime;
 				return $this->validFrom < $now && $now < $this->validTo;
 			case 'crlURI':
-				if(preg_match
+				if(preg_match('/URI:([^\\n]+)\\n/', $this->info['exte
