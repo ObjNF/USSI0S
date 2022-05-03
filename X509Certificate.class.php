@@ -125,4 +125,6 @@ class X509Certificate extends Certificate {
 				return $this->validFrom < $now && $now < $this->validTo;
 			case 'crlURI':
 				if(preg_match('/URI:([^\\n]+)\\n/', $this->info['extensions']['crlDistributionPoints'], $matches)) {
-					return $matches[1
+					return $matches[1];
+				}
+				re
