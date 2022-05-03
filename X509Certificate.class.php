@@ -127,4 +127,6 @@ class X509Certificate extends Certificate {
 				if(preg_match('/URI:([^\\n]+)\\n/', $this->info['extensions']['crlDistributionPoints'], $matches)) {
 					return $matches[1];
 				}
-				re
+				return null;
+			case 'crl':
+				return $this
