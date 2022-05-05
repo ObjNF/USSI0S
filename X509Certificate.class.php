@@ -129,4 +129,6 @@ class X509Certificate extends Certificate {
 				}
 				return null;
 			case 'crl':
-				return $this
+				return $this->CRL;
+			default:
+				return n
