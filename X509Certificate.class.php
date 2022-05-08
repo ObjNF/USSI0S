@@ -137,4 +137,6 @@ class X509Certificate extends Certificate {
 	
 	/**
 	 * Takes base64 code and converts it into a nicely delimited string with wrapping
-	 * @param string 
+	 * @param string $certificate
+	 * @return string
+	 *
