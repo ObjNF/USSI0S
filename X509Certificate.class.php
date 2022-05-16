@@ -141,4 +141,4 @@ class X509Certificate extends Certificate {
 	 * @return string
 	 */
 	public static function toPEM($certificate) {
-		// Make sure we
+		// Make sure we don't wrap something 
