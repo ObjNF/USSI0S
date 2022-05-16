@@ -141,3 +141,4 @@ class X509Certificate extends Certificate {
 	 * @return string
 	 */
 	public static function toPEM($certificate) {
+		// Make sure we
