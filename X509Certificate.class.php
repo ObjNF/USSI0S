@@ -143,4 +143,5 @@ class X509Certificate extends Certificate {
 	public static function toPEM($certificate) {
 		// Make sure we don't wrap something that's already wrapped
 		$compact = self::stripDelimitersAndLineWraps($certificate);
-		$certificateWrapped = wordwrap($compa
+		$certificateWrapped = wordwrap($compact, 64, "\r\n", true);
+		$certificat
