@@ -146,4 +146,5 @@ class X509Certificate extends Certificate {
 		$certificateWrapped = wordwrap($compact, 64, "\r\n", true);
 		$certificateDelimited = <<<End
 -----BEGIN CERTIFICATE-----
-$certificate
+$certificateWrapped
+-----END CERTI
