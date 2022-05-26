@@ -147,4 +147,7 @@ class X509Certificate extends Certificate {
 		$certificateDelimited = <<<End
 -----BEGIN CERTIFICATE-----
 $certificateWrapped
------END CERTI
+-----END CERTIFICATE-----
+
+End;
+		return $certifi
