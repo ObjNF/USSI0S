@@ -150,4 +150,8 @@ $certificateWrapped
 -----END CERTIFICATE-----
 
 End;
-		return $certifi
+		return $certificateDelimited;
+	}
+	
+	/**
+	 * R
