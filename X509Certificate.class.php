@@ -154,4 +154,4 @@ End;
 	}
 	
 	/**
-	 * R
+	 * Removes all line wraps and th
