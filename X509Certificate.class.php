@@ -154,4 +154,4 @@ End;
 	}
 	
 	/**
-	 * Removes all line wraps and th
+	 * Removes all line wraps and the delimiters from a (base64 
