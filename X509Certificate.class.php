@@ -154,4 +154,5 @@ End;
 	}
 	
 	/**
-	 * Removes all line wraps and the delimiters from a (base64 encoded) certificate strin
+	 * Removes all line wraps and the delimiters from a (base64 encoded) certificate string.
+	 * @param string $certif
