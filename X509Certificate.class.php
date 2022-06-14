@@ -158,4 +158,4 @@ End;
 	 * @param string $certificate
 	 * @return string
 	 */
-	p
+	private static function strip
