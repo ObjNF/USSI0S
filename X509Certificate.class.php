@@ -158,4 +158,5 @@ End;
 	 * @param string $certificate
 	 * @return string
 	 */
-	private static function stripDelimitersAndLineWraps
+	private static function stripDelimitersAndLineWraps($certificate) {
+		$certificat
