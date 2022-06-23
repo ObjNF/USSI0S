@@ -159,4 +159,4 @@ End;
 	 * @return string
 	 */
 	private static function stripDelimitersAndLineWraps($certificate) {
-		$certificate = str_replace('-----BEGIN CE
+		$certificate = str_replace('-----BEGIN CERTIFICATE-----', 
