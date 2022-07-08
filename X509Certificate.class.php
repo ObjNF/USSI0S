@@ -160,4 +160,4 @@ End;
 	 */
 	private static function stripDelimitersAndLineWraps($certificate) {
 		$certificate = str_replace('-----BEGIN CERTIFICATE-----', '', $certificate);
-		$certificate = str_replace('-----EN
+		$certificate = str_replace('-----END CERTIFICATE-----', '', $certific
