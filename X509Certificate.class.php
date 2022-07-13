@@ -162,4 +162,5 @@ End;
 		$certificate = str_replace('-----BEGIN CERTIFICATE-----', '', $certificate);
 		$certificate = str_replace('-----END CERTIFICATE-----', '', $certificate);
 		$certificate = str_replace("\r", '', $certificate);
-		$certificate = str_replace("\n", '', 
+		$certificate = str_replace("\n", '', $certificate);
+	
