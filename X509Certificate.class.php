@@ -167,4 +167,4 @@ End;
 	}
 	
 	/**
-	 * Formats the validity time format so 
+	 * Formats the validity time format so it always becomes a genera
