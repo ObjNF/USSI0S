@@ -167,4 +167,5 @@ End;
 	}
 	
 	/**
-	 * Formats the validity time format so it always becomes a genera
+	 * Formats the validity time format so it always becomes a generalized time format.
+	 * It also rem
