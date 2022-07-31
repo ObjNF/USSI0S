@@ -168,4 +168,5 @@ End;
 	
 	/**
 	 * Formats the validity time format so it always becomes a generalized time format.
-	 * It also removes the Zulu time qualifier at the end. So remember 
+	 * It also removes the Zulu time qualifier at the end. So remember that it is in GMT.
+	 * The X509
