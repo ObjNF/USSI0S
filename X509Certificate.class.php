@@ -168,4 +168,4 @@ End;
 	
 	/**
 	 * Formats the validity time format so it always becomes a generalized time format.
-	 * It also removes the Zulu time qualif
+	 * It also removes the Zulu time qualifier at the end. So remember 
