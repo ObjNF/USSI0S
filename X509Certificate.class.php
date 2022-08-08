@@ -171,4 +171,5 @@ End;
 	 * It also removes the Zulu time qualifier at the end. So remember that it is in GMT.
 	 * The X509 standard for date/time formats is friggin idiotic.
 	 * Check it out here: http://www.ietf.org/rfc/rfc2459.txt
-	 * @para
+	 * @param string $dateTime
+	 * @
