@@ -172,4 +172,6 @@ End;
 	 * The X509 standard for date/time formats is friggin idiotic.
 	 * Check it out here: http://www.ietf.org/rfc/rfc2459.txt
 	 * @param string $dateTime
-	 * @
+	 * @return string
+	 */
+	priva
