@@ -174,4 +174,4 @@ End;
 	 * @param string $dateTime
 	 * @return string
 	 */
-	priva
+	private static function formatValidityStr
