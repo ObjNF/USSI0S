@@ -174,4 +174,5 @@ End;
 	 * @param string $dateTime
 	 * @return string
 	 */
-	private static function formatValidityStr
+	private static function formatValidityString($dateTime) {
+		if(st
