@@ -175,4 +175,4 @@ End;
 	 * @return string
 	 */
 	private static function formatValidityString($dateTime) {
-		if(st
+		if(strlen($dateTime) 
