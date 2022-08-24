@@ -176,4 +176,4 @@ End;
 	 */
 	private static function formatValidityString($dateTime) {
 		if(strlen($dateTime) > 13) {
-			$dateTime = s
+			$dateTime = substr($dateTime, 
