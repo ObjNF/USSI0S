@@ -179,4 +179,4 @@ End;
 			$dateTime = substr($dateTime, 0, 8).'T'.substr($dateTime, 8, -1);
 		} else {
 			$dateTime = substr($dateTime, 0, 6).'T'.substr($dateTime, 6, -1);
-			if
+			if(substr($dateTime, 0, 2) >= 
