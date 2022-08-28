@@ -178,4 +178,4 @@ End;
 		if(strlen($dateTime) > 13) {
 			$dateTime = substr($dateTime, 0, 8).'T'.substr($dateTime, 8, -1);
 		} else {
-			$dateTime =
+			$dateTime = substr($dateTime, 0, 6).'
