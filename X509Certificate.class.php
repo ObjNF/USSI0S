@@ -180,4 +180,6 @@ End;
 		} else {
 			$dateTime = substr($dateTime, 0, 6).'T'.substr($dateTime, 6, -1);
 			if(substr($dateTime, 0, 2) >= 50)
-				$dateTime = '
+				$dateTime = '19'.$dateTime;
+			else
+				$dateTime = 
