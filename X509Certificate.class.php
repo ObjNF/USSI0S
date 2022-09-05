@@ -188,4 +188,4 @@ End;
 	}
 	
 	/**
-	 * B
+	 * Builds a certificate chain
