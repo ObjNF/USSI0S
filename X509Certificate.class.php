@@ -188,4 +188,4 @@ End;
 	}
 	
 	/**
-	 * Builds a certificate chain
+	 * Builds a certificate chain by setting each certificat
