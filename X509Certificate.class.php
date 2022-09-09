@@ -189,4 +189,6 @@ End;
 	
 	/**
 	 * Builds a certificate chain by setting each certificates issuer.
-	 * @param array $cert
+	 * @param array $certs
+	 */
+	public static functi
