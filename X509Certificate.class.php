@@ -188,4 +188,5 @@ End;
 	}
 	
 	/**
-	 * Builds a certificate chain by setting each certificat
+	 * Builds a certificate chain by setting each certificates issuer.
+	 * @param array $cert
