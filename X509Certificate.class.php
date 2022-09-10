@@ -193,4 +193,5 @@ End;
 	 */
 	public static function buildChain(array $certs) {
 		foreach($certs as $certificate) {
-			foreac
+			foreach($certs as $ca) {
+				if($c
