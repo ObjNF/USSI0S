@@ -192,4 +192,5 @@ End;
 	 * @param array $certs
 	 */
 	public static function buildChain(array $certs) {
-		foreach($certs as 
+		foreach($certs as $certificate) {
+			foreac
