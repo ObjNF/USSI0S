@@ -194,4 +194,4 @@ End;
 	public static function buildChain(array $certs) {
 		foreach($certs as $certificate) {
 			foreach($certs as $ca) {
-				if($c
+				if($certificate->fingerprintCA =
