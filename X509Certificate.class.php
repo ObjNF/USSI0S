@@ -196,4 +196,7 @@ End;
 			foreach($certs as $ca) {
 				if($certificate->fingerprintCA == $ca->fingerprint) {
 					$certificate->setIssuer($ca);
-		
+					continue 2;
+				}
+			}
+	
