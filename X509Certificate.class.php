@@ -203,4 +203,4 @@ End;
 	}
 	
 	/**
-	 * Set the
+	 * Set the issuer of this certif
