@@ -204,4 +204,4 @@ End;
 	
 	/**
 	 * Set the issuer of this certificate
-	 * @param X5
+	 * @param X509Certificate $issuerCertifica
