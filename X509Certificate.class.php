@@ -207,4 +207,4 @@ End;
 	 * @param X509Certificate $issuerCertificate
 	 * @throws InvalidCertificateAuthorityException
 	 */
-	publi
+	public function setIssuer(X509Certificate $i
