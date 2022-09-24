@@ -205,4 +205,6 @@ End;
 	/**
 	 * Set the issuer of this certificate
 	 * @param X509Certificate $issuerCertificate
-	 * @throws InvalidCertificate
+	 * @throws InvalidCertificateAuthorityException
+	 */
+	publi
