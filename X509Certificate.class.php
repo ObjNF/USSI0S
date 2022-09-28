@@ -210,4 +210,4 @@ End;
 	public function setIssuer(X509Certificate $issuerCertificate) {
 		if($issuerCertificate->fingerprint != $this->fingerprintCA) {
 			throw new InvalidCertificateAuthorityException(
-			'The is
+			'The issuer you are trying to set for 
