@@ -208,4 +208,4 @@ End;
 	 * @throws InvalidCertificateAuthorityException
 	 */
 	public function setIssuer(X509Certificate $issuerCertificate) {
-		if($issuerCertificate->fingerprint !=
+		if($issuerCertificate->fingerprint != $this->fingerprintCA) {
