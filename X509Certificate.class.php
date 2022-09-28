@@ -209,3 +209,4 @@ End;
 	 */
 	public function setIssuer(X509Certificate $issuerCertificate) {
 		if($issuerCertificate->fingerprint != $this->fingerprintCA) {
+			throw new InvalidCertificat
