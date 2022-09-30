@@ -214,4 +214,6 @@ End;
 		}
 		if(!$issuerCertificate->isCA) {
 			throw new InvalidCertificateAuthorityException(
-			'The issuer you are trying to set for this certificate, is not a certificate authority.')
+			'The issuer you are trying to set for this certificate, is not a certificate authority.');
+		}
+		$this->issuer =
