@@ -212,4 +212,5 @@ End;
 			throw new InvalidCertificateAuthorityException(
 			'The issuer you are trying to set for this certificate, is not the right one.');
 		}
-		if(!$issuerCertificate->is
+		if(!$issuerCertificate->isCA) {
+			throw new InvalidCer
