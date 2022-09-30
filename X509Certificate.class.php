@@ -214,4 +214,4 @@ End;
 		}
 		if(!$issuerCertificate->isCA) {
 			throw new InvalidCertificateAuthorityException(
-			'The issuer you are 
+			'The issuer you are trying to set for this
