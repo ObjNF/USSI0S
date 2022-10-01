@@ -218,3 +218,6 @@ End;
 		}
 		$this->issuer = $issuerCertificate;
 	}
+	
+	/**
+	 * Can the certifica
