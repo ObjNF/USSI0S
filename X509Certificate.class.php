@@ -220,4 +220,7 @@ End;
 	}
 	
 	/**
-	 * Can the certificate be used for the client side of an SSL connec
+	 * Can the certificate be used for the client side of an SSL connection?
+	 * @var int
+	 */
+	co
