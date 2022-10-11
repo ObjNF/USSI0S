@@ -223,4 +223,4 @@ End;
 	 * Can the certificate be used for the client side of an SSL connection?
 	 * @var int
 	 */
-	co
+	const PURPOSE_SSL_CLIENT = X5
