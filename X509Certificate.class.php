@@ -225,4 +225,4 @@ End;
 	 */
 	const PURPOSE_SSL_CLIENT = X509_PURPOSE_SSL_CLIENT;
 	/**
-	 * Can the certi
+	 * Can the certificate be used for the server si
