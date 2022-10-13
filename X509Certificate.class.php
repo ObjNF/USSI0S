@@ -224,4 +224,5 @@ End;
 	 * @var int
 	 */
 	const PURPOSE_SSL_CLIENT = X509_PURPOSE_SSL_CLIENT;
-	
+	/**
+	 * Can the certi
