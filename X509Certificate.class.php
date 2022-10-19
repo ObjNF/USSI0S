@@ -228,4 +228,6 @@ End;
 	 * Can the certificate be used for the server side of an SSL connection?
 	 * @var int
 	 */
-	const PURPOSE_SSL_SERVER = X509_PUR
+	const PURPOSE_SSL_SERVER = X509_PURPOSE_SSL_SERVER;
+	/**
+	 * Can the cert b
