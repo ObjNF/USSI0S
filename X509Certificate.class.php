@@ -226,4 +226,6 @@ End;
 	const PURPOSE_SSL_CLIENT = X509_PURPOSE_SSL_CLIENT;
 	/**
 	 * Can the certificate be used for the server side of an SSL connection?
-	 * 
+	 * @var int
+	 */
+	const PURPOSE_S
