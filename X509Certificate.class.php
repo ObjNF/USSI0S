@@ -233,4 +233,4 @@ End;
 	 * Can the cert be used for Netscape SSL server?
 	 * @var int
 	 */
-	const PURPOSE_NS_SS
+	const PURPOSE_NS_SSL_SERVER = X509_PURPOSE_NS_SSL_SERVER;
