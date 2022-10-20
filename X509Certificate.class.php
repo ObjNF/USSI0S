@@ -230,4 +230,4 @@ End;
 	 */
 	const PURPOSE_SSL_SERVER = X509_PURPOSE_SSL_SERVER;
 	/**
-	 * Can the cert b
+	 * Can the cert be used for Netscape SSL server
