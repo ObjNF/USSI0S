@@ -234,3 +234,5 @@ End;
 	 * @var int
 	 */
 	const PURPOSE_NS_SSL_SERVER = X509_PURPOSE_NS_SSL_SERVER;
+	/**
+	 * Can the cert 
