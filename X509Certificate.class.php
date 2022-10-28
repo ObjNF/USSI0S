@@ -236,4 +236,6 @@ End;
 	const PURPOSE_NS_SSL_SERVER = X509_PURPOSE_NS_SSL_SERVER;
 	/**
 	 * Can the cert be used to sign S/MIME email?
-	 *
+	 * @var int
+	 */
+	const PU
