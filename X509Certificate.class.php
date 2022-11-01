@@ -238,4 +238,4 @@ End;
 	 * Can the cert be used to sign S/MIME email?
 	 * @var int
 	 */
-	const PURPOSE_SMIME_SIGN = X509_PURP
+	const PURPOSE_SMIME_SIGN = X509_PURPOSE_SMIME_SIGN;
