@@ -243,4 +243,5 @@ End;
 	 * Can the cert be used to encrypt S/MIME email?
 	 * @var int
 	 */
-	const PURPOSE_SMIME_ENCRYPT = X
+	const PURPOSE_SMIME_ENCRYPT = X509_PURPOSE_SMIME_ENCRYPT;
+	
