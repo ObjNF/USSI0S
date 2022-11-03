@@ -240,4 +240,7 @@ End;
 	 */
 	const PURPOSE_SMIME_SIGN = X509_PURPOSE_SMIME_SIGN;
 	/**
-	 * Can the cert be used to encrypt S/MIME email
+	 * Can the cert be used to encrypt S/MIME email?
+	 * @var int
+	 */
+	const PURPOSE
