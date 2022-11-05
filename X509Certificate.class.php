@@ -245,4 +245,4 @@ End;
 	 */
 	const PURPOSE_SMIME_ENCRYPT = X509_PURPOSE_SMIME_ENCRYPT;
 	/**
-	 * Can the cert be
+	 * Can the cert be used to sign a certificate revocation
