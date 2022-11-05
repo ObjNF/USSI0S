@@ -244,4 +244,5 @@ End;
 	 * @var int
 	 */
 	const PURPOSE_SMIME_ENCRYPT = X509_PURPOSE_SMIME_ENCRYPT;
-	
+	/**
+	 * Can the cert be
