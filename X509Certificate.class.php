@@ -248,4 +248,4 @@ End;
 	 * Can the cert be used to sign a certificate revocation list (CRL)?
 	 * @var int
 	 */
-	const PURPOSE_CRL_SIGN = X50
+	const PURPOSE_CRL_SIGN = X509_PURPOSE_CRL_SIG
