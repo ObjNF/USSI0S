@@ -250,4 +250,7 @@ End;
 	 */
 	const PURPOSE_CRL_SIGN = X509_PURPOSE_CRL_SIGN;
 	/**
-	 * Can the cert be used for Any/All purposes
+	 * Can the cert be used for Any/All purposes?
+	 * @var int
+	 */
+	cons
