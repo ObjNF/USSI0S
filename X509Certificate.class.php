@@ -250,4 +250,4 @@ End;
 	 */
 	const PURPOSE_CRL_SIGN = X509_PURPOSE_CRL_SIGN;
 	/**
-	 * Can the ce
+	 * Can the cert be used for Any/All purposes
