@@ -253,4 +253,4 @@ End;
 	 * Can the cert be used for Any/All purposes?
 	 * @var int
 	 */
-	cons
+	const PURPOSE_ANY = X
