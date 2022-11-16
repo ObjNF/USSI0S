@@ -253,4 +253,7 @@ End;
 	 * Can the cert be used for Any/All purposes?
 	 * @var int
 	 */
-	const PURPOSE_ANY = X
+	const PURPOSE_ANY = X509_PURPOSE_ANY;
+	
+	/**
+	 
