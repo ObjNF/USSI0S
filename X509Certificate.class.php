@@ -256,4 +256,4 @@ End;
 	const PURPOSE_ANY = X509_PURPOSE_ANY;
 	
 	/**
-	 * Checks the purpose of this certificate. If using PURP
+	 * Checks the purpose of this certificate. If using PURPOSE_ANY, make sure o
