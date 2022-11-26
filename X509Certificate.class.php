@@ -257,4 +257,4 @@ End;
 	
 	/**
 	 * Checks the purpose of this certificate. If using PURPOSE_ANY, make sure openssl is on the PATH.
-	 * A bug in PHP prevents the ce
+	 * A bug in PHP prevents the certificate from being checked
