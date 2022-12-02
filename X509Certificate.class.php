@@ -262,4 +262,5 @@ End;
 	 * @param array $caInfo List of files and directories that contain root certificates.
 	 * @return boolean
 	 */
-	public function checkPurpose($pu
+	public function checkPurpose($purpose, array $caInfo) {
+		if($pur
