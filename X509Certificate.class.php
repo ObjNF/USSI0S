@@ -263,4 +263,4 @@ End;
 	 * @return boolean
 	 */
 	public function checkPurpose($purpose, array $caInfo) {
-		if($pur
+		if($purpose == self::PURPOSE_ANY) {
