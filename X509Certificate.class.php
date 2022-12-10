@@ -264,4 +264,6 @@ End;
 	 */
 	public function checkPurpose($purpose, array $caInfo) {
 		if($purpose == self::PURPOSE_ANY) {
-			$caPathDirsArray = arr
+			$caPathDirsArray = array();
+			$caPathFilesArray = array();
+			
