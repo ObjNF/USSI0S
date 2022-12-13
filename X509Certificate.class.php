@@ -266,4 +266,4 @@ End;
 		if($purpose == self::PURPOSE_ANY) {
 			$caPathDirsArray = array();
 			$caPathFilesArray = array();
-			
+			foreach($caInfo as $caPath
