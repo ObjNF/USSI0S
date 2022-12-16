@@ -271,4 +271,5 @@ End;
 					$caPathDirsArray[] = $caPath;
 				else
 					$caPathFilesArray[] = $caPath;
-		
+			
+			$caPathDirs = implo
