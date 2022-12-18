@@ -272,4 +272,6 @@ End;
 				else
 					$caPathFilesArray[] = $caPath;
 			
-			$caPathDirs = implode(PATH_SEPARATOR, $caPathDirsArra
+			$caPathDirs = implode(PATH_SEPARATOR, $caPathDirsArray);
+			if(!empty($caPathDirs))
+				$ca
