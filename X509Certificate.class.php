@@ -277,4 +277,5 @@ End;
 				$caPathDirs = " -CApath $caPathDirs";
 			
 			$caPathFiles = implode(PATH_SEPARATOR, $caPathFilesArray);
-			if(!emp
+			if(!empty($caPathFiles))
+				$c
