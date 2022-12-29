@@ -278,4 +278,6 @@ End;
 			
 			$caPathFiles = implode(PATH_SEPARATOR, $caPathFilesArray);
 			if(!empty($caPathFiles))
-				$caPathFiles = " -CAfile $caP
+				$caPathFiles = " -CAfile $caPathFiles";
+			
+			$tempCrt = tempnam
