@@ -283,4 +283,5 @@ End;
 			$tempCrt = tempnam(sys_get_temp_dir(), 'crt');
 			file_put_contents($tempCrt, $this->clearText);
 			exec("openssl verify$caPathDirs$caPathFiles -purpose any $tempCrt", $output);
-			unl
+			unlink($tempCrt);
+			// retur
