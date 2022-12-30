@@ -285,4 +285,4 @@ End;
 			exec("openssl verify$caPathDirs$caPathFiles -purpose any $tempCrt", $output);
 			unlink($tempCrt);
 			// return code of openssl is always 0, so we need to check the actual output
-			retur
+			return $output[0] == "$tempCrt: 
