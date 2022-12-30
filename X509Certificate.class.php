@@ -284,4 +284,4 @@ End;
 			file_put_contents($tempCrt, $this->clearText);
 			exec("openssl verify$caPathDirs$caPathFiles -purpose any $tempCrt", $output);
 			unlink($tempCrt);
-			// return code of openssl is a
+			// return code of openssl is always 0, so we need to check
