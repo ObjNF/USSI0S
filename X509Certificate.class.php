@@ -287,4 +287,4 @@ End;
 			// return code of openssl is always 0, so we need to check the actual output
 			return $output[0] == "$tempCrt: OK";
 		}
-		return openssl_x509_che
+		return openssl_x509_checkpurpose($this->certRe
