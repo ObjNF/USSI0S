@@ -289,3 +289,6 @@ End;
 		}
 		return openssl_x509_checkpurpose($this->certResource, $purpose, $caInfo);
 	}
+	
+	/**
+	 * Checks whether th
