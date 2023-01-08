@@ -291,4 +291,4 @@ End;
 	}
 	
 	/**
-	 * Checks whether th
+	 * Checks whether this certificate or any of it's
