@@ -291,4 +291,4 @@ End;
 	}
 	
 	/**
-	 * Checks whether this certificate or any of it's
+	 * Checks whether this certificate or any of it's CAs has been revoked
