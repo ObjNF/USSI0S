@@ -292,4 +292,4 @@ End;
 	
 	/**
 	 * Checks whether this certificate or any of it's CAs has been revoked.
-	 * Automatically fetches the
+	 * Automatically fetches the current CRL for the certifica
