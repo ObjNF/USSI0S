@@ -294,4 +294,5 @@ End;
 	 * Checks whether this certificate or any of it's CAs has been revoked.
 	 * Automatically fetches the current CRL for the certificate.
 	 * If all CRLs should be check, the chain has to be built first with X509Certificate::buildChain().
-	 * @param array $caInfo List of files and directories that contain root certificates
+	 * @param array $caInfo List of files and directories that contain root certificates.
+	 * @param boolean $checkAll Whe
