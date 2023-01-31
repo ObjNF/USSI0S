@@ -295,4 +295,4 @@ End;
 	 * Automatically fetches the current CRL for the certificate.
 	 * If all CRLs should be check, the chain has to be built first with X509Certificate::buildChain().
 	 * @param array $caInfo List of files and directories that contain root certificates.
-	 * @param boolean $checkAll Whe
+	 * @param boolean $checkAll Whether to check the CRL for e
