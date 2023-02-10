@@ -298,4 +298,5 @@ End;
 	 * @param boolean $checkAll Whether to check the CRL for each certificate all the way up to the root.
 	 * @return boolean
 	 */
-	public function checkCRL(array $caInfo, $checkA
+	public function checkCRL(array $caInfo, $checkAll = false) {
+		$caPa
