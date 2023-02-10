@@ -299,4 +299,4 @@ End;
 	 * @return boolean
 	 */
 	public function checkCRL(array $caInfo, $checkAll = false) {
-		$caPa
+		$caPathDirsArray = array();
