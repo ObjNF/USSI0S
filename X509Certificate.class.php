@@ -300,3 +300,4 @@ End;
 	 */
 	public function checkCRL(array $caInfo, $checkAll = false) {
 		$caPathDirsArray = array();
+		$caPathFilesArray = ar
