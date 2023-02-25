@@ -304,3 +304,5 @@ End;
 		foreach($caInfo as $caPath)
 			if(is_dir($caPath))
 				$caPathDirsArray[] = $caPath;
+			else
+				$caPathFilesArr
