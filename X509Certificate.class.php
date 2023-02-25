@@ -307,3 +307,5 @@ End;
 			else
 				$caPathFilesArray[] = $caPath;
 		
+		$crls = array();
+		$crls[] = $t
