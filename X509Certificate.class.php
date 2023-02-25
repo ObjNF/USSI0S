@@ -305,4 +305,5 @@ End;
 			if(is_dir($caPath))
 				$caPathDirsArray[] = $caPath;
 			else
-				$caPathFilesArr
+				$caPathFilesArray[] = $caPath;
+		
