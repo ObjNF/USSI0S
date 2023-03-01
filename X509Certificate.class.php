@@ -309,4 +309,5 @@ End;
 		
 		$crls = array();
 		$crls[] = $this->crl;
-		if($checkA
+		if($checkAll) {
+			$certificate = $t
