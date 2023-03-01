@@ -308,4 +308,5 @@ End;
 				$caPathFilesArray[] = $caPath;
 		
 		$crls = array();
-		$crls[] = $t
+		$crls[] = $this->crl;
+		if($checkA
