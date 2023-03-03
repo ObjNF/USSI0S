@@ -311,4 +311,5 @@ End;
 		$crls[] = $this->crl;
 		if($checkAll) {
 			$certificate = $this;
-			while($certificate-
+			while($certificate->issuer != $certificate) {
+				if($ce
