@@ -312,4 +312,5 @@ End;
 		if($checkAll) {
 			$certificate = $this;
 			while($certificate->issuer != $certificate) {
-				if($certificate->issuer == nul
+				if($certificate->issuer == null)
+					throw new CRLCheckExcepti
