@@ -310,4 +310,5 @@ End;
 		$crls = array();
 		$crls[] = $this->crl;
 		if($checkAll) {
-			$certificate = $t
+			$certificate = $this;
+			while($certificate-
