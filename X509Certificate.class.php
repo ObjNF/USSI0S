@@ -312,4 +312,4 @@ End;
 		if($checkAll) {
 			$certificate = $this;
 			while($certificate->issuer != $certificate) {
-				if($ce
+				if($certificate->issuer == nul
