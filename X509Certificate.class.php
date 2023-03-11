@@ -322,4 +322,5 @@ End;
 		$caPathFilesArray[] = CertificateRevocationList::combineToPEM($crls);
 		
 		$caPathDirs = implode(PATH_SEPARATOR, $caPathDirsArray);
-	
+		if(!empty($caPathDirs))
+			$
