@@ -314,4 +314,5 @@ End;
 			while($certificate->issuer != $certificate) {
 				if($certificate->issuer == null)
 					throw new CRLCheckException("Could not find the root of the certificate '$this->name'.");
-				$certificate = $c
+				$certificate = $certificate->issuer;
+				
