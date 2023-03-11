@@ -315,4 +315,8 @@ End;
 				if($certificate->issuer == null)
 					throw new CRLCheckException("Could not find the root of the certificate '$this->name'.");
 				$certificate = $certificate->issuer;
-				$crls[] = $certifi
+				$crls[] = $certificate->crl;
+			}
+		}
+		
+		$caPat
