@@ -319,4 +319,4 @@ End;
 			}
 		}
 		
-		$caPat
+		$caPathFilesArray[] = CertificateRevocationLis
