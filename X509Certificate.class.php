@@ -319,4 +319,6 @@ End;
 			}
 		}
 		
-		$caPathFilesArray[] = CertificateRevocationLis
+		$caPathFilesArray[] = CertificateRevocationList::combineToPEM($crls);
+		
+		$c
