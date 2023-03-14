@@ -325,4 +325,4 @@ End;
 		if(!empty($caPathDirs))
 			$caPathDirs = " -CApath $caPathDirs";
 		
-		$caPathFiles = implode(PA
+		$caPathFiles = implode(PATH_SEPARATOR, $caPathFi
