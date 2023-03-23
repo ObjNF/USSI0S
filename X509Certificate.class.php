@@ -327,4 +327,4 @@ End;
 		
 		$caPathFiles = implode(PATH_SEPARATOR, $caPathFilesArray);
 		if(!empty($caPathFiles))
-			$caPathF
+			$caPathFiles = " -CAfile $caPathFiles"
