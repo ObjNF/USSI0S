@@ -330,4 +330,4 @@ End;
 			$caPathFiles = " -CAfile $caPathFiles";
 		
 		$tempCrt = tempnam(sys_get_temp_dir(), 'crt');
-		
+		file_put_contents($tempCrt, $thi
