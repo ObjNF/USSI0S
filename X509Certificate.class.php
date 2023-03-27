@@ -329,4 +329,5 @@ End;
 		if(!empty($caPathFiles))
 			$caPathFiles = " -CAfile $caPathFiles";
 		
-		$tempCrt = tempnam(s
+		$tempCrt = tempnam(sys_get_temp_dir(), 'crt');
+		
