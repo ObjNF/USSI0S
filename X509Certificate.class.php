@@ -332,4 +332,4 @@ End;
 		$tempCrt = tempnam(sys_get_temp_dir(), 'crt');
 		file_put_contents($tempCrt, $this->clearText);
 		$checkParam = $checkAll?'-crl_check_all':'-crl_check';
-		exec("openssl verif
+		exec("openssl verify$caPathDirs$caPathFiles $chec
