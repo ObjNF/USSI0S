@@ -334,4 +334,7 @@ End;
 		$checkParam = $checkAll?'-crl_check_all':'-crl_check';
 		exec("openssl verify$caPathDirs$caPathFiles $checkParam $tempCrt", $output);
 		unlink($tempCrt);
-		return $o
+		return $output[0] == "$tempCrt: OK";
+	}
+	
+	p
