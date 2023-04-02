@@ -339,3 +339,6 @@ End;
 	
 	public function __toString() {
 		return $this->clearText;
+	}
+	
+	public function __destruct()
