@@ -341,4 +341,6 @@ End;
 		return $this->clearText;
 	}
 	
-	public function __destruct()
+	public function __destruct() {
+		if($this->certResource)
+			o
