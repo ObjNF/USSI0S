@@ -337,4 +337,4 @@ End;
 		return $output[0] == "$tempCrt: OK";
 	}
 	
-	p
+	public function __toString() 
