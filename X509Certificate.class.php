@@ -337,4 +337,5 @@ End;
 		return $output[0] == "$tempCrt: OK";
 	}
 	
-	public function __toString() 
+	public function __toString() {
+		return $this->clearText;
