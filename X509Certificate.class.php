@@ -345,4 +345,5 @@ End;
 		if($this->certResource)
 			openssl_x509_free($this->certResource);
 		$this->certResource = null;
-		$t
+		$this->publicKey = null;
+		
