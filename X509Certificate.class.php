@@ -346,4 +346,6 @@ End;
 			openssl_x509_free($this->certResource);
 		$this->certResource = null;
 		$this->publicKey = null;
-		
+		$this->clearText = null;
+	}
+}
