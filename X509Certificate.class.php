@@ -344,4 +344,5 @@ End;
 	public function __destruct() {
 		if($this->certResource)
 			openssl_x509_free($this->certResource);
-		$this->certR
+		$this->certResource = null;
+		$t
